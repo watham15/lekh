@@ -1,0 +1,19 @@
+baseURL = 'https://watham15.github.io/lekh/'
+locale = 'en-us'
+title = 'yengpham'
+
+theme = "dario"
+
+# top-level content folders to show on the home page
+mainSections = ['posts', 'projects']
+
+[params]
+  description = "A short description for meta tags"
+  colorScheme = 'toggle'     # 'toggle', 'system', 'light', or 'dark'
+  showPostsLink = true       # adds a lowercase "posts" link in the header
+
+    [params.author]
+    name = "sabyasachi"
+    
+    [params.copyMarkdown]
+    enabled = true
